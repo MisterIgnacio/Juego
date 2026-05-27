@@ -1,0 +1,32 @@
+import random
+try:
+    print("--------------------------------------------------------")
+    print("------------JUGAREMOS AL JUEGO DEL PAR/IMPAR------------")
+    print("--------------------------------------------------------")
+
+    condicion = True
+    while condicion == True:
+        minimo = int(input("Ingresa un número: "))
+        maximo = int(input("Ingresa un número (mayor al anterior): "))
+        if maximo <= minimo:
+            print("El segundo número NO es mayor al primero")
+        else:
+            condicion = False
+    
+    print("Respecto al rango que TÚ nos diste, saldrá un número aleatorio y nos tienes que decir si es par o impar")
+    print("Preguntaremos 7 veces")
+    listo = input("presiona ENTER cuando estés listo ")
+    for i in range(7):
+        aleatorio = random.randint(minimo,maximo)
+        print(f"El número es: {aleatorio}")
+        if aleatorio % 2 == 0:
+            aleatorio = "par".lower()
+        else:
+            aleatorio = "impar".lower()
+        respuesta = input("¿Par o impar? ").lower()
+        if respuesta == aleatorio:
+            print("¡Muy bien!")
+        else:
+            print("¡Error!")
+except ValueError:
+    print("Error en el ingreso de datos")
