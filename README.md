@@ -1,24 +1,26 @@
-Juego del Par o Impar en Python 🎲
-¡Bienvenido al juego de Par o Impar! Este es un script interactivo desarrollado en Python donde el usuario pone a prueba su velocidad mental para adivinar si una serie de números aleatorios generados dentro de un rango personalizado son pares o impares.
+Juego de Par o Impar con Sistema de Puntos y Tienda 🎲🛍️
+¡Bienvenido al juego interactivo de Par o Impar! Un script desarrollado en Python donde no solo pones a prueba tu velocidad mental adivinando si un número aleatorio es par o impar, sino que también acumulas puntos que podrás canjear por increíbles premios en una tienda virtual.
 
-🚀 Características
-Rango Personalizado: El usuario define los límites mínimos y máximos para la generación de números.
+🚀 Características Nuevas y Mejoradas
+Rango Personalizado: Tú decides los límites mínimos y máximos para la generación de los números.
 
-Validación de Datos: El programa se asegura de que el número máximo sea realmente mayor que el mínimo y maneja errores si se ingresan letras en lugar de números.
+Partidas a Tu Medida: El programa te permite elegir exactamente cuántas veces quieres jugar en la sesión.
 
-Dinámica Rápida: El juego realiza exactamente 7 preguntas por partida.
+Sistema de Recompensas: Cada respuesta correcta te otorga 100 puntos.
 
-Interactivo: Evaluación de respuestas en tiempo real (¡Muy bien! o ¡Error!).
+Tienda Integrada: Un menú final interactivo donde puedes revisar tu saldo, canjear tus puntos por premios (pelotas, peluches o autos de juguete por 1000 puntos cada uno) o salir del juego.
+
+Robustez: Validación de rangos numéricos y control de errores por si se ingresan letras en lugar de números enteros.
 
 📋 Requisitos
-Para ejecutar este juego solo necesitas tener instalado Python 3.x en tu sistema. No requiere la instalación de librerías externas, ya que utiliza el módulo nativo random.
+Para ejecutar este juego solo necesitas tener instalado Python 3.x. El script utiliza el módulo nativo random, por lo que no requiere instalar ninguna librería externa.
 
 💻 Cómo Ejecutar el Juego
-Clona o descarga este repositorio.
+Descarga o copia el código en un archivo llamado juego.py.
 
-Abre una terminal o consola de comandos en la carpeta donde guardaste el archivo.
+Abre tu terminal o consola de comandos en la ruta donde guardaste el archivo.
 
-Ejecuta el siguiente comando (asumiendo que tu archivo se llama juego.py):
+Ejecuta el siguiente comando:
 
 Bash
-python juego.py
+python juegogithub.py
