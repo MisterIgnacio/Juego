@@ -21,4 +21,4 @@ Abre una terminal o consola de comandos en la carpeta donde guardaste el archivo
 Ejecuta el siguiente comando (asumiendo que tu archivo se llama juego.py):
 
 Bash
-python juego.py
+python juegogithub.py
