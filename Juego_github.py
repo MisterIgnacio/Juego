@@ -28,8 +28,8 @@ try:
             aleatorio = "impar"
         respuesta = input("¿Par o impar? ").lower()
         if respuesta == aleatorio:
-            print("¡Muy bien!")
-            puntos = puntos +100
+            print("¡Excelente!")
+            puntos = puntos +150
         else:
             print("¡Error!")
 
